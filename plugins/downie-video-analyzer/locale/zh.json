@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Downie 视频分析器",
+    "description": "用 Downie Enhanced 引擎下载视频，完成转写与关键帧采样后删除源文件，只保留可复用的分析资料。"
+  }
+}

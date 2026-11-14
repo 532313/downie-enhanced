@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="Downie Video Analyzer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101a33"/>
+      <stop offset="1" stop-color="#25163d"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="url(#bg)"/>
+  <rect x="18" y="28" width="92" height="72" rx="12" fill="none" stroke="url(#accent)" stroke-width="4" opacity="0.9"/>
+  <path d="M52 47v34l30-17z" fill="#f8fafc"/>
+  <g stroke="url(#accent)" stroke-width="4" stroke-linecap="round" opacity="0.95">
+    <path d="M26 52v24"/>
+    <path d="M34 58v12"/>
+    <path d="M102 52v24"/>
+    <path d="M94 58v12"/>
+  </g>
+  <rect x="18" y="108" width="44" height="6" rx="3" fill="url(#accent)" opacity="0.75"/>
+</svg>

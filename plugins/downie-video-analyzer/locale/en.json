@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Downie Video Analyzer",
+    "description": "Download a video with the Downie Enhanced engine, transcribe it, sample keyframes, delete the source files, and keep reusable analysis artifacts."
+  }
+}

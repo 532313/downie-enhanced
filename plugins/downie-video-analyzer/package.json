@@ -1,0 +1,27 @@
+{
+  "name": "@local/downie-video-analyzer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Download a video with the Downie Enhanced yt-dlp engine, transcribe it, sample keyframes, and keep only the analysis artifacts.",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "mcp-server.js",
+    "cordis.patch.yml",
+    "lib/*.js",
+    "scripts/*.py",
+    "locale/*.json",
+    "icon.svg",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
